@@ -538,6 +538,7 @@ h1 {
 
     .Projetos-Conteudo-Caixa {
         border-radius: 16px;
+        overflow: hidden;
         backdrop-filter: blur(5px);
         border: 1px solid var(--vidro);
         transition: all 0.5s ease;
@@ -549,7 +550,6 @@ h1 {
     .Projetos-Conteudo-Caixa.ativo {
         transform: scale(1);
         box-shadow: 0 0 20px rgba(229, 205, 70, 0.3);
-        padding: 0.5rem;
         /* Luz ao redor */
     }
 
